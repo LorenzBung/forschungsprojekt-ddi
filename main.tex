@@ -5,10 +5,24 @@
 \usepackage[T1]{fontenc}
 \usepackage{helvet}
 \renewcommand{\familydefault}{\sfdefault}
-\setlength\parindent{0pt}
+\setlength\parindent{0cm}
+\setlength\parskip{1em}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{natbib}	%citation
+\usepackage{hyperref}	%clickable links
+\usepackage{color}
+\hypersetup{	%link formatting
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=cyan,
+	pdftitle={\@title},
+	pdfpagemode=FullScreen,
+}
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, topsep=0pt}
 \usepackage[left=3cm, right=3cm, top=3cm, bottom=3cm]{geometry}
 \usepackage[ngerman]{babel}
 \author{Lorenz Bung}
@@ -27,7 +41,10 @@
 	\newpage
 	\setcounter{page}{1}
 	\pagenumbering{arabic}
-	\include{mainpart}
+	\include{mainpart/einleitung}
+	\include{mainpart/konzeption}
+	\include{mainpart/umsetzung}
+	\include{mainpart/reflexion}
 	\include{appendix}
 	\include{bibliography}
 \end{document}
