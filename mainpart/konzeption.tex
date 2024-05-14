@@ -2,14 +2,20 @@
 \label{sec:konzeption}
 
 \subsection{Voraussetzungsanalyse}
-\label{sec:voraussetzungsanalyse}
+\label{subsec:voraussetzungsanalyse}
 
 Die in dieser Arbeit durchgeführte Voraussetzungsanalyse orientiert sich am von Paul Heimann begründeten Berliner Modell \cite[S.~41--70]{arnold2015}.
-Darin spielen sowohl die anthropogenen als auch die sozio-kulturellen Voraussetzungen der Lerngruppe eine große Rolle.
-Im Folgenden wird daher auf diese beiden Bedingungen genauer eingegangen, mögliche Auswirkungen auf die Lerngruppe genannt und daraus resultierende Konsequenzen auf die Planung des Unterrichts diskutiert.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.6\textwidth]{media/BerlinerModell.png}
+	\caption{Schematische Darstellung des Berliner Modells \cite[S.~68]{arnold2015}}
+	\label{fig:berliner-modell}
+\end{figure}
+Wie in \autoref{fig:berliner-modell} zu sehen ist, spielen nach diesem Modell sowohl die anthropogenen als auch die sozio-kulturellen Voraussetzungen der Lerngruppe eine entscheidende Rolle.
+Im Folgenden wird daher auf diese beiden Bedingungen genauer eingegangen, mögliche Auswirkungen auf die Lerngruppe genannt und daraus resultierende Konsequenzen auf die Planung des Unterrichts diskutiert.\\\\
 
 \subsubsection{Anthropogene Voraussetzungen}
-\label{sec:anthropogene-voraussetzungen}
+\label{subsubsec:anthropogene-voraussetzungen}
 
 Bei der Analyse der anthropogenen Voraussetzungen der Lerngruppe werden Faktoren berücksichtigt, welche die Schülerinnen und Schüler in die Unterrichtssituation mitbringen.
 Fragen, die diese Analyse zu beantworten sucht, können unter Anderem die folgenden sein:
@@ -29,8 +35,14 @@ Die Wahl der Schule und des Profilfaches spricht dafür, dass der Großteil der 
 In Hospitationen im Unterricht mit der Klasse hat sich durch Gespräche und Beobachtungen jedoch herauskristallisiert, dass Informatik und informatische Inhalte von Teilen der Klasse als langweilig oder irrelevant empfunden wird.
 Andere Schülerinnen und Schüler brachten bereits Einiges an Vorwissen mit und hatten auch Spaß an der Auseinandersetzung mit Problemstellungen aus dem Informatikunterricht.
 
+Der Grund für die Wahl des Themas dieser Forschungsarbeit war, dass die Klasse für den Unterricht in zwei etwa gleich große Gruppen geteilt wurde.
+Das Klassenklima in der Klasse lässt sich als durchgängig gut beschreiben, allerdings ist hierbei zu berücksichtigen, dass die Sicht der Lehrkraft auf das Klassenklima selbstverständlich nicht immer exakt der realen Situation entspricht.
+Auffällig an vielen Klassen am Technischen Gymnasium -- insbesondere aber auch bei der in dieser Arbeit betrachteten Lerngruppe -- ist das ungleiche Geschlechterverhältnis.
+In diesem konkreten Fall waren im Unterricht nur zwei Schülerinnen, während der Rest der Lerngruppe männlich war.
+Aufgrund möglicher geschlechtsspezifischer Stereotypen, die insbesondere im Fach Informatik leider immer noch sehr prävalent sind, ist dieses ungleiche Geschlechterverhältnis ein Punkt, auf den bei der Durchführung des Unterrichts und der eventuell angepassten Konzeption der darauffolgenden Stunde ein besonderes Augenmerk gelegt werden muss.
+
 Ein großes Problem vor der Durchführung der Unterrichtseinheit war die fehlende Klarheit über das Vorwissen der Schülerinnen und Schüler zum Thema ``Webentwicklung''.
-Auch die betreuende Lehrkraft konnte diesbezüglich keine Angaben machen, da diese die Klasse erst in der Jahrgangsstufe übernommen hat, nicht jedoch in der Eingangsklasse.
+Auch die betreuende Lehrkraft konnte diesbezüglich keine Angaben machen, da diese die Klasse erst in der Jahrgangsstufe übernommen hatte, nicht jedoch in der Eingangsklasse.
 Eben dann steht allerdings das Thema ``HTML und CSS'' im Bildungsplan \cite[BPE~2]{bildungsplan-tg-informatik}, was essentielles Vorwissen für die kommende Unterrichtseinheit ist.
 Diese Frage konnte bis zur ersten Stunde auch nicht mehr geklärt werden, was die Planung dieser ersten Stunde erheblich erschwerte.
 Klar war aber, dass alle Schülerinnen und Schüler Erfahrung im Bereich der Programmierung mit Python mitbrachten.
@@ -40,12 +52,231 @@ Insgesamt kann festgehalten werden, dass die Lerngruppe in Bezug auf ihr Vorwiss
 Dies spiegelte sich auch deutlich in der Lerngeschwindigkeit der verschiedenen Schülerinnen und Schüler wider und war bei der weiteren Planung der Unterrichtseinheit zu berücksichtigen.
 
 \subsubsection{Sozio-kulturelle Voraussetzungen}
-\label{sec:sozio-kulturelle-voraussetzungen}
+\label{subsubsec:sozio-kulturelle-voraussetzungen}
 
 Hinter der Frage nach den sozio-kulturellen Voraussetzungen stehen sowohl externe wie auch innere Faktoren, die das Unterrichtsgeschehen beeinflussen können. Ein Teil der dazu zählenden Punkte sind:
 \begin{itemize}
 	\item Wie viel Zeit steht für den Unterricht zur Verfügung?
 	\item Handelt es sich um eine Einzel- oder eine Doppelstunde?
 	\item In welchen Räumlichkeiten findet die Stunde statt?
-	\item Genügt die vorhandene technische Ausstattung dem geplanten Unterricht?
+	\item Genügt die vorhandene technische Ausstattung den Anforderungen des geplanten Unterrichts?
 \end{itemize}
+Die Räumlichkeiten der Richard-Fehrenbach-Gewerbeschule, in der der im Rahmen dieser Arbeit durchgeführte Unterricht stattgefunden hat, sind durchgängig als technisch gut bis sogar hervorragend ausgestattet einzustufen.
+Sämtliche gehaltenen Stunden konnten in Computerräumen von ausreichender Größe durchgeführt werden, so dass jede Person an einem eigenen Computer arbeiten konnte.
+Zudem war in jedem Raum eine digitale Tafel mit Dokumentenkamera und drahtloser Verbindung zu digitalen Endgeräten vorhanden.
+Weiterhin war in jedem Computerraum ein Drucker platziert, so dass bei Bedarf Übungs- und Merkblätter in gedruckter Form an die Schülerinnen und Schüler weitergegeben werden konnten.
+
+Alle Stunden der Unterrichtseinheit waren Doppelstunden, also in ununterbrochener Länge von 90 Minuten.
+Geplant waren für das gesamte Thema 8 Stunden bzw. 4 Doppelstunden, was sich mit den Vorgaben im Bildungsplan deckt \cite[BPE~19]{bildungsplan-tg-informatik}.
+Bei Bedarf wäre es allerdings möglich gewesen, dies um eine weitere Doppelstunde zu erweitern.
+Insgesamt wurden 32 Stunden \'a 45 Minuten gehalten, wobei jede Stunde einmal pro Gruppe stattgefunden hat.
+Je Gruppe fanden also 16 Stunden \'a 45 Minuten, jeweils in Blöcken von 90 Minuten statt.
+
+
+\subsection{Lerninhalte und -ziele}
+\label{subsec:lernziele}
+
+Vor der Aufstellung konkreter Lernziele ist es notwendig, sich klar zu machen, welche Lerninhalte im Unterricht eigentlich vermittelt werden sollen.
+Für die Planung einer vollständigen Bildungsplaneinheit, wie es in der vorliegenden Arbeit stattgefunden hat, muss dafür zunächst eine Aufteilung der Lernstoffes in einzelne Abschnitte durchgeführt werden, welche dann wiederum die inhaltliche Grundlage für die einzelnen Stunden bieten.
+Es ist also nötig, das Thema der Einheit in möglichst unabhängig voneinander stehende Abschnitte zu gliedern, welche aber gleichzeitig im Gesamtbild miteinander in Wechselwirkung stehen und ein umfassendes Bild der Thematik liefern.
+
+Dass diese Trennung eine große Herausforderung darstellt, ist wohl selbstverständlich.
+Viel bedeutsamer ist für diese Arbeit jedoch, dass es nicht die eine unanfechtbar korrekte Lösung für dieses Problem gibt, sondern dass viele verschiedene Aufteilungen des Lernstoffes möglich sind.
+Je nach Lerngruppe, Vorwissen oder insbesondere auch nach verfolgtem Ziel haben diese verschiedenen Herangehensweisen unterschiedliche Vor- und Nachteile, über die man sich bei der Planung des Unterrichts im Klaren sein muss.
+
+
+\subsubsection{Gliederung des Lernstoffs}
+\label{subsubsec:lernstoff-gliederung}
+
+Bei der Planung der in dieser Arbeit betrachteten Bildungsplaneinheit zum Thema ``Javascript'' gab es dabei zunächst zwei Ansätze, den Lernstoff zu gliedern.
+Der erste Ansatz war, analog zu bereits erfolgten Stunden zum Thema ``Python'' vorzugehen und Javascript einfach von Grund auf als neue Programmiersprache einzuführen.
+Dieser Ansatz hatte den Vorteil, dass das Vorgehen bereits in der Unterrichtseinheit zu Python erfolgreich durchgeführt worden war und man mit dieser Methode ein relativ sicheres Lernergebnis erreichen können würde.
+Der große Nachteil war jedoch, dass eine erneute Einführung einer neuen Programmiersprache nach demselben Schema und mit ähnlichen oder sogar gleichen Übungsaufgaben für die Schülerinnen und Schüler sehr langweilig gewesen wäre.
+Hier hätte sich schnell die Sinnfrage gestellt: ``Wir haben das doch schon alles in Python gemacht, warum sollen wir das erneut in Javascript machen?''
+Sicherlich wäre diese Frage zumindest teilweise gerechtfertigt gewesen; außerdem wäre der Kernunterschied von Javascript zu Python nicht klar geworden:
+Nämlich, dass es sich bei Javascript um eine im Browser clientseitig ausgeführte Sprache handelt.
+
+Im Gegensatz dazu stand der zweite Ansatz, der darauf aufbaute, direkt von Anfang an zu zeigen, dass das Ziel der Einheit die Webentwicklung ist.
+Hier würden Aufgaben so gestellt werden, dass die Schülerinnen und Schüler bereits vorgefertigte Webseiten inklusive Codegerüsten bekommen würden und diese entsprechend den Aufgabenstellungen vervollständigen müssten.
+Die Einführung bekannter Programmierkonzepte wie Verzweigungen, Schleifen und Funktionen würde nicht als abstraktes Konzept, sondern direkt anhand von Beispielen eingeführt werden.
+Ein entscheidender Vorteil wäre hierbei, dass sich die erlernten Konzepte direkt auf reale in der Webentwicklung auftretende Situationen anwenden ließe und sich so direkt erschließen würde, wofür das ganze benötigt wird.
+Dies würde im Optimalfall zu erhöhter Motivation bei den Schülerinnen und Schülern führen.
+Der entscheidende Nachteil dieser Variante wäre jedoch, dass die Struktur des Unterrichts weniger klar wäre.
+Da sich die Einführung neuer Konzepte an Beispielproblemen wie vorgefertigten Webseiten orientieren würde, müssten viele Teile des Codes bereits fertig vorliegen.
+Dies könnte die Schülerinnen und Schüler ablenken und im schlechtesten Fall so verwirren, dass die eigentlich einfachen Aufgaben nicht mehr gelöst werden könnten.
+Andererseits böte sich hier auch die Chance, interessierten Schülerinnen und Schülern einen Ausblick auf fortgeschrittenere Inhalte zu bieten.
+
+
+\subsubsection{Formulierung der Lernziele}
+\label{subsubsec:formulierung-lernziele}
+
+Die in \autoref{subsubsec:lernstoff-gliederung} diskutierten Ansätze wurden mit der betreuenden Lehrkraft ausgiebig besprochen und die Vor- und Nachteile gegeneinander abgewägt.
+Schlussendlich wurde für die Planung der Unterrichtseinheit der zweite, problemorientierte Ansatz gewählt.
+Einer der  ausschlaggebenden Gründe dafür war der motivationsaufbauende Aspekt von problemorientiertem Unterricht, insbesondere vor dem Hintergrund, dass die Programmiersprache Python erst kürzlich formal eingeführt worden war.
+Weiterhin bot die natürliche Komplexität der Aufgaben eine gute Möglichkeit, bereits erste Maßnahmen zur Differenzierung zu nehmen und durch zusätzliche bzw. weiterführende Inhalte auch besonders schnellen oder interessierten Schülerinnen und Schülern gerecht zu werden.
+
+Ein Teil der im Bildungsplan zum Thema Javascript verankerten Lerninhalte \cite[BPE~19]{bildungsplan-tg-informatik} sind die folgenden:
+
+\begin{itemize}
+	\item Deklaration von Variablen und Konstanten
+	\item Einfache arithmetische Vergleichsoperationen
+	\item Kontrollstrukturen: Verzweigungen, Schleifen
+\end{itemize}
+
+Eine Aufteilung dieser Inhalte auf die vier Doppelstunden lieferte die in \autoref{tab:stundenplanung-vorher} dargestellte Struktur.
+Wie sich im Verlauf der verschiedenen Stunden zeigen sollte, war diese Planung nicht final und musste im Laufe der Zeit noch weiteren Änderungen unterzogen werden.
+Weiteres hierzu wird in \autoref{TODO} \textcolor{red}{TODO} genauer diskutiert.
+
+\begin{table}[h!]
+	\begin{tabular*}{\linewidth}{l|l}
+		\hline
+		\textbf{Stunde} & \textbf{Inhalt}\\
+		\hline
+		1 & Überprüfung des Vorwissens zu HTML/CSS\\
+		& Variablen\\
+		& if-Verzweigung\\
+		\hline
+		2 & Schleifen: for/while\\
+		\hline
+		3 & Arrays, Funktionen\\
+		\hline
+		4 & Entwicklung eines kleinen Spiels auf Basis der erlernten Konzepte\\
+		\hline
+	\end{tabular*}
+	\caption{Aufteilung der Lerninhalte auf die Unterrichtsstunden vor der Durchführung}
+	\label{tab:stundenplanung-vorher}
+\end{table}
+
+Aufgrund der Vorerfahrungen der Schülerinnen und Schüler bei der Programmierung mit Python konnte davon ausgegangen werden, dass die grundlegenden Konzepte der Programmierung wie Variablen, Schleifen und Verzweigungen nicht erneut auf theoretisch-abstraktem Niveau besprochen werden mussten.
+Aus diesem Grund und auch der geringen syntaktischen Unterschiede war nur eine Doppelstunde für die Themen Variablen und if-Verzweigungen geplant.
+Die auf diesen Überlegungen basierenden Lernziele sind in \autoref{tab:lernziele-1-vorher} genauer beschrieben.
+
+\begin{table}[h!]
+\begin{tabular*}{\linewidth}{l|l}
+	\hline
+	\textbf{Zielart} & \textbf{Lernziel}\\
+	\hline \hline
+	Grobziel & Die Schülerinnen und Schüler beschreiben die Struktur von HTML-\\
+	& und CSS-Dokumenten.\\
+	Feinziel & Die SuS nennen Beispiele für HTML-Tags.\\
+	Feinziel & Die SuS beurteilen die Korrektheit von CSS-Dokumenten bezüglich\\
+	& ihrer Syntax.\\
+	Grobziel & Die SuS identifizieren Unterschiede und Gemeinsamkeiten der\\
+	& Syntax von Variablen und Verzweigungen in Javascript und Python.\\
+	Feinziel & Die SuS identifizieren Code als Python- oder Javascript-Code.\\
+	Feinziel & Die SuS nennen Unterschiede in der Syntax von if-Verzweigungen\\
+	& in Javascript und Python.\\
+	Feinziel & Die SuS beurteilen die Qualität von Javascript-Code hinsichtlich\\
+	& seiner syntaktischen Korrektheit.\\
+	\hline
+\end{tabular*}
+\caption{Planung der Lernziele für die erste Doppelstunde vor ihrer Durchführung}
+\label{tab:lernziele-1-vorher}
+\end{table}
+
+Ebenso sollten for- und while-Schleifen beide in einer Doppelstunde besprochen werden.
+Beide Strukturen waren bereits aus der Unterrichtseinheit zu Python bekannt und mussten daher nicht erst neu eingeführt werden.
+In \autoref{tab:lernziele-2-vorher} sind die dazu formulierten Lernziele zu finden.
+
+\begin{table}[h!]
+\begin{tabular*}{\linewidth}{l|l}
+	\hline
+	\textbf{Zielart} & \textbf{Lernziel}\\
+	\hline \hline
+	Grobziel & Die SuS verwenden for- und while-Schleifen, um Code wiederholt\\
+	& ausführen zu lassen.\\
+	Feinziel & Die SuS differenzieren zwischen korrekter und inkorrekter Syntax\\
+	& bei for- und while-Schleifen in Javascript.\\
+	Feinziel & Die SuS nennen Unterschiede und Gemeinsamkeiten von for- und\\
+	& while-Schleifen in Javascript und in Python.\\
+	Feinziel & Die SuS formulieren for-Schleifen in while-Schleifen um und\\
+	& umgekehrt.\\
+	Feinziel & Die SuS argumentieren, ob für ein gegebenes Problem eher eine\\
+	& for- oder eine while-Schleife geeignet ist.\\
+	\hline
+\end{tabular*}
+\caption{Planung der Lernziele für die zweite Doppelstunde vor ihrer Durchführung}
+\label{tab:lernziele-2-vorher}
+\end{table}
+
+Die für die dritte Stunde vorgesehenen Inhalte Arrays bzw. Listen und Funktionen waren so geplant, dass schnellere Schülerinnen und Schüler direkt in dieser Doppelstunde damit fertig werden würden, allerdings auch bei Bedarf die Möglichkeit bestand, noch die darauffolgende vierte Doppelstunde dafür zu nutzen.
+Die in \autoref{tab:lernziele-3-vorher} dargestellten Lernziele sind daher nur in Bezug auf die schnelleren Schülerinnen und Schüler gültig; sie können auch erst in der vierten Doppelstunde erfüllt werden.
+
+\begin{table}[h!]
+\begin{tabular*}{\linewidth}{l|l}
+	\hline
+	\textbf{Zielart} & \textbf{Lernziel}\\
+	\hline \hline
+	Grobziel & Die SuS implementieren die aus Python bekannte Struktur der Liste\\
+	& in der neuen Programmiersprache Javascript.\\
+	Feinziel & Die SuS nutzen die Methode \texttt{indexOf()}, um den Index eines\\
+	& Elements in einer Liste zu bestimmen.\\
+	Feinziel & Die SuS nutzen Indizes, um auf bestimmte Elemente in einer Liste\\
+	& zuzugreifen.\\
+	Feinziel & Die SuS identifizieren Unterschiede und Gemeinsamkeiten der\\
+	& Syntax von Listen bei Javascript und Python.\\
+	Grobziel & Die SuS verwenden Funktionen, um ihren Code zu strukturieren.\\
+	Feinziel & Die SuS unterscheiden korrekte von inkorrekter Syntax bezüglich\\
+	& vorgegebenen Codes zu Funktionen in Javascript.\\
+	Feinziel & Die SuS unterscheiden zwischen Funktionsaufruf und -rumpf.\\
+	Feinziel & Die SuS rufen vorgegebene Funktionen korrekt auf.\\
+	Feinziel & Die SuS implementieren Funktionen anhand eines vorgegebenen\\
+	& Funktionskopfes und Beschreibung der Funktionalität.\\
+	\hline
+\end{tabular*}
+\caption{Planung der Lernziele für die dritte Doppelstunde vor ihrer Durchführung}
+\label{tab:lernziele-3-vorher}
+\end{table}
+
+\begin{table}[h!]
+	\begin{tabular*}{\linewidth}{l|l}
+		\hline
+		\textbf{Zielart} & \textbf{Lernziel}\\
+		\hline \hline
+		Grobziel & Die SuS implementieren die Logik eines browserbasierten Spiels\\
+		& mithilfe von Javascript.\\
+		Feinziel & Die SuS analysieren Problemstellungen in Bezug auf deren\\
+		& Umsetzung durch Programmierkonzepte.\\
+		Feinziel & Die SuS identifizieren algorithmische Lösungen für komplexe\\
+		& Programmierproblemstellungen.\\
+		Feinziel & Die SuS nutzen Schleifen, Listen, Verzweigungen und Funktionen,\\
+		& um ihren Code sinnvoll zu strukturieren.\\
+		Grobziel & Die SuS kombinieren erlernte Programmiertechniken und wenden\\
+		& diese im Zusammenspiel miteinander an.\\
+		\hline
+	\end{tabular*}
+	\caption{Optionale und zusätzliche Lernziele für die vierte Doppelstunde vor ihrer Durchführung}
+	\label{tab:lernziele-4-vorher}
+\end{table}
+
+Leistungsstarke Lernende würden die Zeit der vierten Doppelstunde dann nutzen können, um ihr in der Einheit gelerntes Wissen anzuwenden und ein kleines browserbasiertes Spiel wie Tic-Tac-Toe zu entwickeln.
+Für diese Schülerinnen und Schüler ergäben sich somit zusätzliche, über die reine Programmiertechnik hinausgehende Lernziele, welche in \autoref{tab:lernziele-4-vorher} aufgelistet sind.
+Das Erreichen dieser Lernziele ist somit nicht für alle Schülerinnen und Schüler verpflichtend, sondern eine freiwillige Zusatzleistung, welche der Festigung und Vertiefung des Stoffes dient.
+
+
+\subsection{Methodik und Medien}
+\label{subsec:methodik-medien}
+
+Unter Anderem aufgrund der guten technischen Ausstattung der Schule war eine vielfältige Gestaltung des Unterrichts möglich.
+Nach Rücksprache mit der betreuenden Lehrkraft erfolgte die Einführung in neue Inhalte, beispielsweise die Syntax einer if-Verzweigung in der ersten Stunde, durch direkte Instruktion.
+Dies basierte auf früheren Erfahrungen mit der Klasse, welche nahelegten, dass diese Methode zu vergleichsweise wenigen Ablenkungen seitens der Schülerinnen und Schüler führte.
+Gleichzeitig wurde so ein schneller Einstieg in die neue Thematik geschaffen und damit ein zügiger Übergang in das selbstständige und schülerzentrierte Arbeiten.
+
+Für die Arbeitsphasen wurde den Schülerinnen und Schülern folgendes Material zur Verfügung gestellt:
+\begin{itemize}
+	\item Merkblätter, auf denen die in der Erarbeitungsphase kennengelernten Inhalte in kompakter und verständlicher Form erneut aufbereitet waren und somit als Arbeitshilfe genutzt werden konnten.
+	Die Merkblätter finden sich in \autoref{app:merkblätter}.
+	\item Arbeitsblätter, auf welchen sich die Aufgabenstellungen für die aktuelle Doppelstunde finden ließen.
+	Diese sind in \autoref{app:übungsblätter} einsehbar.
+	\item Zu den Aufgaben gehörige Codegerüste, welche neben dem von den Schülerinnen und Schülern zu bearbeitendem Javascript-Code auch auf HTML und CSS basierende Webseiten enthielten, um die praxisorientierten Aufgaben direkt testen zu können.
+	Screenshots des Codes finden sich in \autoref{app:codegerüste}.
+\end{itemize}
+Sämtliches Material lag grundsätzlich in digitaler Form vor und wurde über das Tauschlaufwerk der Schule kommuniziert.
+Zusätzlich bot sich den Schülerinnen und Schülern die Möglichkeit, auf Nachfrage Merk- und Arbeitsblätter auszudrucken, um diese in analoger Form als zusätzliche Hilfe bei der Arbeit vor sich liegen zu haben.
+
+Weiterhin wurde bereits zu Beginn der Unterrichtseinheit kommuniziert, dass zur Information oder auch zur Weiterbildung für Interessierte zahlreiche Onlineressourcen zur Verfügung stehen.
+Insbesondere wurde die weit verbreitete Webseite \href{https://www.w3schools.com}{w3schools} genannt, welche neben Tutorials zu HTML, CSS, Javascript und weiteren Programmiersprachen auch Referenzdokumente zu oben genannten Komponenten der Webentwicklung zur Verfügung stellt \cite{w3schools}.
+
+Zusätzlich wurden auch Online-Quizzes verwendet, allgemeiner bekannt unter dem Namen ``Kahoot''.
+Neben den positiven Erfahrungen, die Lehrkräfte bei ihren Klassen mit dem Format sammeln konnten \cite{dellos2015kahoot}, kann der Ansatz des game-based learning mithilfe von Kahoot positive Effekte auf Lernerfolge, Motivation und Ängste der Schülerinnen und Schüler haben sowie das Klassenklima verbessern \cite{wang2020kahoot}.
+Eingesetzt wurde das Tool sowohl bei Unterrichtseinstiegen zur Vorwissensaktivierung und Motivationsaufbau, als auch innerhalb von Übungsphasen zur Sammlung des Gruppenfokus.
